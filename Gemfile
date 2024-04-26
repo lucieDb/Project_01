@@ -11,8 +11,20 @@ gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
-# API weather
+# API weather 
+# https://home.openweathermap.org/api_keys
 gem 'open-weather-ruby-client'
+
+# debug
+gem 'pry', '~> 0.14.2'
+
+# markup language
+gem 'haml'
+gem 'pronto-haml', '~> 0.11.1'
+
+# map
+# https://github.com/axyjo/leaflet-rails
+gem 'leaflet-rails'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
