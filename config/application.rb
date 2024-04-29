@@ -31,5 +31,7 @@ module Project_01
         ENV[key] = value
       end
     end
+
+    config.assets.enabled = true
   end
 end
