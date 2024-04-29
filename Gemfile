@@ -20,11 +20,17 @@ gem 'pry', '~> 0.14.2'
 
 # markup language
 gem 'haml'
+gem 'haml_lint'
 gem 'pronto-haml', '~> 0.11.1'
 
 # map
 # https://github.com/axyjo/leaflet-rails
 gem 'leaflet-rails'
+
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+
+gem 'rubocop-rails'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
