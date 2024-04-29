@@ -1,0 +1,5 @@
+$(document).ready(function() {
+    if (document.getElementById('disco-map')) {
+        new DiscoveredMap(<%= sanitize(data.to_json) %>);
+    }
+})

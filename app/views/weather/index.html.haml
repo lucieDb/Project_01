@@ -10,4 +10,8 @@
 %div
     %h1
         Ma super carte
-    #disco-map
+    #disco-map{data: @data}
+
+%script
+    = render partial: 'weather/index', locals: {data: @data}, formats: :js
+
