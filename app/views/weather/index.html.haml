@@ -1,17 +1,8 @@
 %h1
-    Ma super page avec des données météo
-%h2
-    Weather API
-    %p data
-    %p= @data
-    %p City Name
-    %p= @data.name
-
+    Discover World
 %div
-    %h1
-        Ma super carte
     #disco-map{data: @data}
 
 %script
-    = render partial: 'weather/index', locals: {data: @data}, formats: :js
+    = render partial: 'weather/index', locals: {map_data: @data}, formats: :js
 
