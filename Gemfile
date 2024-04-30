@@ -23,6 +23,8 @@ gem 'haml'
 gem 'haml_lint'
 gem 'pronto-haml', '~> 0.11.1'
 
+gem 'sassc'
+
 # map
 # https://github.com/axyjo/leaflet-rails
 gem 'leaflet-rails'
