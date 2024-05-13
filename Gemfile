@@ -18,12 +18,16 @@ gem 'open-weather-ruby-client'
 # debug
 gem 'pry', '~> 0.14.2'
 
+# front bootstrap
+# gem 'bootstrap'
+# gem 'sassc-rails'
+# gem 'mini_racer'
+# gem 'libv8-node', '~> 21.6.0.0'
+
 # markup language
 gem 'haml'
 gem 'haml_lint'
 gem 'pronto-haml', '~> 0.11.1'
-
-gem 'sassc'
 
 # map
 # https://github.com/axyjo/leaflet-rails
@@ -31,6 +35,7 @@ gem 'leaflet-rails'
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'sassc'
 
 gem 'rubocop-rails'
 
